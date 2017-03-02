@@ -71,11 +71,9 @@ section#main {
 article header {
     background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
     padding: 10px 10%;
-    box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
     height:auto;
     min-height: 100px;
-    background-attachment: fixed;
-    margin: 10px -100px;
+    background-attachment: fixed;	
 }
 
 

@@ -19,10 +19,16 @@ header, nav, article {
     }
 }
 
-.halfWidth {
-	width:50%;
+.thirdWidth {
+	width:30%;
 	float:left;
 	display:inline-block;
+	margin-right:10px;
+	box-shadow: 10px 10px 10px rgba(37,37,37,0.8);
+}
+
+.thirdWidth:last-child {
+	margin-right:0;	
 }
 
 .fullWidth {

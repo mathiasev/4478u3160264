@@ -19,6 +19,10 @@ header, nav, article {
     }
 }
 
+.halfWidth {
+	width:50%;
+}
+
 .fullWidth {
     background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
     padding: 10px 10%;

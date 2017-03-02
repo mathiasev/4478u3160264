@@ -21,6 +21,8 @@ header, nav, article {
 
 .halfWidth {
 	width:50%;
+	float:left;
+	display:inline-block;
 }
 
 .fullWidth {

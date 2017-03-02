@@ -1,47 +1,22 @@
+/* Core Components */
 body {
-	font-family: 	Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0;
 }
-section {
+section { 
     display:inline-block;
 }
+
 img {
     margin: 10px auto auto auto;
 }
-header, nav, article {
+
+/* Site Header and Menu */
+header.siteHeader, nav {
     padding: 10px 100px;
-
-}
-
-@media screen and (max-width: 480px) {
-    header, nav, article{
-        padding: 10px 20px;
-    }
-}
-
-.thirdWidth {
-	width:30%;
-	float:left;
-	display:inline-block;
-	margin-right:10px;
-	box-shadow: 10px 10px 10px rgba(37,37,37,0.8);
-}
-
-.thirdWidth:last-child {
-	margin-right:0;	
-}
-
-.fullWidth {
-    background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
-    padding: 10px 10%;
-    box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
-    height:auto;
-    min-height: 100px;
-    background-attachment: fixed;
-    margin: 10px -100px;
 }
 .menuBar {     
-	background-color:#298ECB;
+    background-color:#298ECB;
     min-height:60px;
 }
 
@@ -65,9 +40,47 @@ header, nav, article {
 .menuBar a:hover {
     font-weight: bold;
 }
+section#main {
+    margin-top:30px;
+}
+@media screen and (max-width: 480px) {
+    header.siteHeader, nav {
+        padding: 10px 20px;
+    }
+}
+.fixHeader {
+    position: fixed;
+    width:100%;
+    top:0;
+}
 
 
-.blockWidthContent h2 {
+/* Third Width Content: Homepage */
+.thirdWidth {
+	width:30%;
+	float:left;
+	display:inline-block;
+	margin-right:10px;
+	box-shadow: 10px 10px 10px rgba(37,37,37,0.8);
+}
+
+.thirdWidth:last-child {
+	margin-right:0;	
+}
+
+article header {
+    background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
+    padding: 10px 10%;
+    box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
+    height:auto;
+    min-height: 100px;
+    background-attachment: fixed;
+    margin: 10px -100px;
+}
+
+
+
+/* .blockWidthContent h2 {
     font-size: x-large;
     letter-spacing: 11px;
     text-transform: uppercase;
@@ -85,38 +98,26 @@ margin:auto;
 line-height: 1.5;
     letter-spacing: 0.5px;
 }
+*/
 
-section#main {
-    margin-top:30px;
-}
 
 section#introduction img {
     float:right;
 }
 
-.moreInfo {
+article footer {
 display: inline-block;
     padding: 11px;
-    min-width: 140px;
     color: #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
 text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
+	
+	background-color: crimson;
 }
-.moreInfo:hover {
+article footer:hover {
             box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
 
-}
-
-.crimson {
-        background-color: crimson;
-
-}
-
-.fixHeader {
-    position: fixed;
-    width:100%;
-    top:0;
 }

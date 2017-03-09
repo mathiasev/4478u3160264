@@ -41,9 +41,7 @@ header, .siteHeader, nav {
 .menuBar a:hover {
     font-weight: bold;
 }
-section#main {
-    margin: 30px 100px 0;
-}
+
 @media screen and (max-width: 480px) {
     header.siteHeader, nav {
         padding: 10px 20px;
@@ -53,6 +51,11 @@ section#main {
     position: fixed;
     width:100%;
     top:0;
+}
+
+/* Main Section */
+section#main {
+    margin: 30px 100px 0;
 }
 
 
@@ -69,6 +72,8 @@ section#main {
 	margin-right:0;	
 }
 
+
+/* Article */
 article header {
     background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
     padding: 10px 10%;
@@ -77,35 +82,11 @@ article header {
     background-attachment: fixed;	
 }
 
-
-
-/* .blockWidthContent h2 {
-    font-size: x-large;
-    letter-spacing: 11px;
-    text-transform: uppercase;
-}
-
-.blockWidthContent {
-text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
-    color: #fff;
-    text-align: center;
-width:60%;
-margin:auto;
-}
-
-.blockWidthContent p.intro {
-line-height: 1.5;
-    letter-spacing: 0.5px;
-}
-*/
-
-
-section#introduction img {
-    float:right;
+section.blurb {
+    padding: 20px;
 }
 
 article footer {
-
     padding: 11px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -113,12 +94,8 @@ article footer {
     text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
     background-color: crimson;
     text-align: center;
+}
 
-}
-section.blurb {
-    padding: 20px;
-}
 article footer:hover {
             box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
-
 }

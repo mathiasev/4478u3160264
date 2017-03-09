@@ -75,13 +75,16 @@ section#main {
 
 /* Article */
 article header {
-    background-image: url('http://bg.siteorigin.com/image/generate?color=%236363a8&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
+    background-color:#434343;
     padding: 10px 10%;
     height:auto;
     min-height: 100px;
     background-attachment: fixed;	
 }
 
+article header h2 {
+    color: #ffffff;
+}
 section.blurb {
     padding: 20px;
     min-height:200px;

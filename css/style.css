@@ -62,13 +62,13 @@ section#main {
 
 @media screen and (max-width: 480px) {
 	#main {
-		padding: 10px 20px;
+	    padding: 10px 20px;
 	    width: calc(100% - 40px);
 	}
 }
 @media screen and (max-width: 768px) {
-	section#main {
-		
+	.thirdWidth {
+		width:calc(100% - 40px;}
 	}
 }
 

@@ -10,9 +10,10 @@ section {
 img {
     margin: 10px auto auto auto;
 }
+a { color: inherit; }
 
 /* Site Header and Menu */
-header.siteHeader, nav {
+header, .siteHeader, nav {
     padding: 10px 100px;
 }
 .menuBar {     
@@ -57,11 +58,11 @@ section#main {
 
 /* Third Width Content: Homepage */
 .thirdWidth {
-	width:30%;
-	float:left;
-	display:inline-block;
-	margin-right:10px;
-	box-shadow: 10px 10px 10px rgba(37,37,37,0.8);
+    width: calc((100% - 40px)/3);
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 2px 2px 27px rgba(50,50,50,0.4);
 }
 
 .thirdWidth:last-child {
@@ -103,17 +104,17 @@ section#introduction img {
     float:right;
 }
 
-article footer {
-display: inline-block;
     padding: 11px;
-    color: #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
-    text-decoration: none;
     font-size: 12px;
-text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
-	
-	background-color: crimson;
+    text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
+    background-color: crimson;
+    text-align: center;
+
+}
+section.blurb {
+    padding: 20px;
 }
 article footer:hover {
             box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);

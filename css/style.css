@@ -56,7 +56,7 @@ a { color: inherit; }
 }
 
 /* Main Section */
-section#main {
+#main {
     padding: 30px 100px 0;
 }
 @media screen and (max-width: 480px) {

@@ -71,6 +71,10 @@ section#main {
 	box-shadow: 2px 2px 27px rgba(50,50,50,0.4);	
 }
 
+.thirdWidth:hover article footer a {
+	font-size:10px;
+}
+
 .thirdWidth:last-child {
 	margin-right:0;	
 }
@@ -93,21 +97,18 @@ section.blurb {
     min-height:200px;
 }
 
-article footer {
+article footer  a {
     padding: 11px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 12px;
     text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
-    background-color: crimson;
+    background-color: #434343;
     text-align: center;
-    color: #fff;
     height:30px;
-}
-
-article footer a {
     text-decoration: none;
     color: #ffffff;
+    display: block;
 }
 
 article footer:hover {
@@ -123,6 +124,6 @@ article footer:hover {
 .theme2 header, .theme2 footer {
 	background-color: #3258A4;
 }
-.theme2 header, .theme2 footer {
+.theme3 header, .theme3 footer {
 	background-color: #B18776;
 }

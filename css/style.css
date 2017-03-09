@@ -84,6 +84,7 @@ article header {
 
 section.blurb {
     padding: 20px;
+    min-height:200px;
 }
 
 article footer {
@@ -98,7 +99,8 @@ article footer {
 }
 
 article footer a {
-    text-decoration: none;	
+    text-decoration: none;
+    color: #ffffff;
 }
 
 article footer:hover {

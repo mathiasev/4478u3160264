@@ -99,6 +99,7 @@ article footer {
     background-color: crimson;
     text-align: center;
     color: #fff;
+    height:30px;
 }
 
 article footer a {
@@ -107,7 +108,7 @@ article footer a {
 }
 
 article footer:hover {
-            box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
+ font-weight:bold;
 }
 
 

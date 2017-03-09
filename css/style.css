@@ -81,23 +81,24 @@ section#main {
 
 
 /* Article */
-article header {
-    background-color:#434343;
-    padding: 10px 10%;
-    height:auto;
-    min-height: 100px;
-    background-attachment: fixed;	
+article header a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    text-decoration:none;
 }
 
 article header h2 {
     color: #ffffff;
+    text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
+    text-transform:uppercase;
 }
 section.blurb {
     padding: 20px;
     min-height:200px;
 }
 
-article footer  a {
+article footer a {
     padding: 11px;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -111,7 +112,7 @@ article footer  a {
     display: block;
 }
 
-article footer:hover {
+article footer:hover, article header:hover {
  font-weight:bold;
 }
 
@@ -121,9 +122,9 @@ article footer:hover {
 	background-color: #BE3A4B;
 }
 
-.theme2 header, .theme2 footer {
+.theme2 header a, .theme2 footer a {
 	background-color: #3258A4;
 }
-.theme3 header, .theme3 footer {
+.theme3 header a, .theme3 footer a {
 	background-color: #B18776;
 }

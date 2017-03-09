@@ -48,6 +48,7 @@ a { color: inherit; }
 	    width: calc(100% - 40px);
     }
 }
+
 .fixHeader {
     position: fixed;
     width:100%;
@@ -56,9 +57,20 @@ a { color: inherit; }
 
 /* Main Section */
 section#main {
-    margin: 30px 100px 0;
+    padding: 30px 100px 0;
 }
 
+@media screen and (max-width: 480px) {
+	#main {
+		padding: 10px 20px;
+	    width: calc(100% - 40px);
+	}
+}
+@media screen and (max-width: 768px) {
+	section#main {
+		
+	}
+}
 
 /* Third Width Content: Homepage */
 .thirdWidth {

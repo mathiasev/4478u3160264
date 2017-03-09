@@ -43,8 +43,9 @@ a { color: inherit; }
 }
 
 @media screen and (max-width: 480px) {
-    header.siteHeader, nav {
+    #siteHeader, nav {
         padding: 10px 20px;
+	    width: calc(100% - 40px);
     }
 }
 .fixHeader {

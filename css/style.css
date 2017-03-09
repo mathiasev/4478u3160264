@@ -106,3 +106,15 @@ article footer a {
 article footer:hover {
             box-shadow: inset 3px 3px 9px rgba(37,37,37,0.8);
 }
+
+
+/* Theme */
+.theme1 article footer {
+	background-color: #BE3A4B;
+}
+.theme1 article header {
+	    background-image: url('http://bg.siteorigin.com/image/generate?color=%BE3A4B&pattern=black-Linen&blend=53&intensity=8.00&noise=0');
+}
+
+
+

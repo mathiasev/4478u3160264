@@ -59,18 +59,13 @@ a { color: inherit; }
 section#main {
     padding: 30px 100px 0;
 }
-
 @media screen and (max-width: 480px) {
 	#main {
 	    padding: 10px 20px;
 	    width: calc(100% - 40px);
 	}
 }
-@media screen and (max-width: 768px) {
-	.thirdWidth {
-		width:calc(100% - 40px);
-	}
-}
+
 
 /* Third Width Content: Homepage */
 .thirdWidth {
@@ -78,6 +73,11 @@ section#main {
     float: left;
     display: inline-block;
     margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+	.thirdWidth {
+		width: 100%;
+	}
 }
 
 .thirdWidth:hover {

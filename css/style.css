@@ -40,9 +40,11 @@ a { color: inherit; }
 	}
 }
 
-.menuBar .active {
+.a .active {
     cursor: default;
     font-weight: bold;
+    color: #298ECB;
+	background-color: #ffffff;
 }
 .menuBar a {
 	color:#ffffff;	

@@ -28,7 +28,6 @@ a { color: inherit; }
 	padding: 10px 20px;
 	color:#ffffff;
 	line-height:40px;
-	width: 100px;
 }
 
 @media screen and (max-width: 480px) {
@@ -38,7 +37,6 @@ a { color: inherit; }
 	padding: 10px;
 	color:#ffffff;
 	line-height:20px;
-	width: auto;		
 	}
 }
 
@@ -163,4 +161,11 @@ article footer:hover, article header:hover {
 }
 .theme3 section.blurb {
 	border: #B18776 1px solid;
+}
+
+
+/* Site Footer */
+footer {
+	background-color: #298ECB;
+	padding: 10px 100px;
 }

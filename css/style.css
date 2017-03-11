@@ -13,11 +13,13 @@ img {
 a { color: inherit; }
 
 /* Site Header and Menu */
-#siteHeader, nav {
+#siteHeader {
     padding: 10px 100px;
 }
+
 .menuBar {     
-    background-color:#298ECB;
+	background-color:#298ECB;
+	padding: 0 100px;
 }
 
 .menuBar > a {
@@ -40,7 +42,7 @@ a { color: inherit; }
 	}
 }
 
-.a .active {
+a.active {
     cursor: default;
     font-weight: bold;
     color: #298ECB;

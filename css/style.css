@@ -18,7 +18,6 @@ a { color: inherit; }
 }
 .menuBar {     
     background-color:#298ECB;
-    min-height:60px;
 }
 
 .menuBar > a {

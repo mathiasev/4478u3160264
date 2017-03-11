@@ -21,13 +21,24 @@ a { color: inherit; }
     min-height:60px;
 }
 
-.menuBar > a, .menuBar > div {
-	display: 		inline-block;
-    height: 		40px;
-    padding: 		10px;
+.menuBar > a {
+	display: inline-block;
+	height:	40px;
+	padding: 10px;
 	color:#ffffff;
-	line-height:	40px;
-    width: 100px;
+	line-height:40px;
+	width: 100px;
+}
+
+@media screen and (max-width: 480px) {
+	.menuBar > a {
+	display: inline-block;
+	height:	20px;
+	padding: 10px;
+	color:#ffffff;
+	line-height:20px;
+	width: auto;		
+	}
 }
 
 .menuBar .active {
@@ -77,7 +88,7 @@ a { color: inherit; }
 @media screen and (max-width: 768px) {
 	.thirdWidth {
 		width: 100%;
-		margin:0;
+		margin:10px 0 0 0	;
 	}
 }
 

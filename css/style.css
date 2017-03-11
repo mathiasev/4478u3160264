@@ -144,10 +144,18 @@ article footer:hover, article header:hover {
 .theme1 header, .theme1 footer {
 	background-color: #BE3A4B;
 }
-
+.theme1 article {
+	border: #BE3A4B 1px solid;
+}
 .theme2 header a, .theme2 footer a {
 	background-color: #3258A4;
 }
+.theme2 article {
+	border: #3258A4 1px solid;
+}
 .theme3 header a, .theme3 footer a {
 	background-color: #B18776;
+}
+.theme3 article {
+	border: #B18776 1px solid;
 }

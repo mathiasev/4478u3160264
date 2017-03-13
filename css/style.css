@@ -97,8 +97,7 @@ a {
 /* Main Section */
 
 #main {
-    padding: 0 100px 0;
-    margin-top: 40px;
+    margin: 40px 100px;
 }
 
 @media screen and (max-width: 480px) {
@@ -126,7 +125,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    .thirdWidth {
+    .thirdWidth, .twoThirdWidth {
         width: 100%;
         margin: 10px 0 0 0;
     }

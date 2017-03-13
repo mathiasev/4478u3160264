@@ -1,70 +1,87 @@
 /* Load Web Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
 
 /* Core Components */
+
 body {
-    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
-    margin:0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0;
 }
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Bree Serif', Arial, Helvetica, sans-serif;	
-	letter-spacing:2.5px;
+    font-family: 'Bree Serif', Arial, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
 }
-section { 
-    display:inline-block;
+
+section {
+    display: inline-block;
 }
+
 img {
     margin: 10px auto auto auto;
 }
-a { 
-	color: inherit;
+
+a {
+    color: inherit;
 }
 
+
 /* Site Header and Menu */
+
 #siteHeader {
     padding: 10px 100px;
 }
+
 #siteHeader h1 {
-	margin-bottom:0;
+    margin-bottom: 0;
 }
+
 #siteHeader p {
-	margin-top:0;
+    margin-top: 0;
 }
+
 .fixHeader {
     position: fixed;
-    width:100%;
-    top:0;
+    width: 100%;
+    top: 0;
 }
-.menuBar {     
-	background-color:#298ECB;
-	padding: 0 100px;
+
+.menuBar {
+    background-color: #298ECB;
+    padding: 0 100px;
 }
-.menuBar > a {
-	display: inline-block;
-	height:	40px;
-	padding: 10px 20px;
-	color:#ffffff;
-	line-height:40px;
+
+.menuBar>a {
+    display: inline-block;
+    height: 40px;
+    padding: 10px 20px;
+    color: #ffffff;
+    line-height: 40px;
 }
+
 @media screen and (max-width: 480px) {
-	.menuBar > a {
-	display: inline-block;
-	height:	20px;
-	padding: 10px;
-	color:#ffffff;
-	line-height:20px;
-	}
+    .menuBar>a {
+        display: inline-block;
+        height: 20px;
+        padding: 10px;
+        color: #ffffff;
+        line-height: 20px;
+    }
 }
+
 .menuBar a {
-	color:#ffffff;	
-	text-decoration:none;
+    color: #ffffff;
+    text-decoration: none;
 }
+
 .menuBar a.active {
     cursor: default;
     font-weight: bold;
     color: #298ECB;
-	background-color: #ffffff;
+    background-color: #ffffff;
 }
+
 .menuBar a:hover {
     font-weight: bold;
 }
@@ -72,73 +89,79 @@ a {
 @media screen and (max-width: 480px) {
     #siteHeader, nav {
         padding: 10px 20px;
-	    width: calc(100% - 40px);
+        width: calc(100% - 40px);
     }
 }
 
 
 /* Main Section */
+
 #main {
     padding: 0 100px 0;
- margin-top:40px;
+    margin-top: 40px;
 }
 
 @media screen and (max-width: 480px) {
-	#main {
-	    padding: 0;
-	    width: 100%;
-	}
+    #main {
+        padding: 0;
+        width: 100%;
+    }
 }
 
 
 /* Third Width Content: Homepage */
+
 .twoThirdWidth {
-	width: calc(((100% - 230px)/3)*2)    float: left;
+    width: calc(((100% - 230px)/3)*2) float: left;
     display: inline-block;
     margin-right: 20px;
 }
+
 .thirdWidth {
     width: calc((100% - 40px)/3);
     float: left;
     display: inline-block;
     margin-right: 20px;
 }
+
 @media screen and (max-width: 768px) {
-	.thirdWidth {
-		width: 100%;
-		margin:10px 0 0 0;
-	}
+    .thirdWidth {
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
 }
 
 .thirdWidth:hover {
-	box-shadow: 2px 2px 27px rgba(50,50,50,0.4);	
+    box-shadow: 2px 2px 27px rgba(50, 50, 50, 0.4);
 }
 
 .thirdWidth:hover article footer a {
-	font-size:10px;
+    font-size: 10px;
 }
 
-.thirdWidth:last-child {
-	margin-right:0;	
+.thirdWidth:last {
+    margin-right: 0;
 }
 
 
 /* Article */
+
 article header a {
     display: inline-block;
     text-align: center;
     width: 100%;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 article header h2 {
     color: #ffffff;
-    text-transform:uppercase;
-    font-size:1.25em;
+    text-transform: uppercase;
+    font-size: 1.25em;
 }
+
 section.blurb {
     padding: 20px;
-    min-height:200px;
+    min-height: 200px;
 }
 
 article footer a {
@@ -146,48 +169,55 @@ article footer a {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-size: 12px;
-    text-shadow: 3px 3px 9px rgba(37,37,37,0.8);
     text-align: center;
-    height:30px;
+    height: 30px;
     text-decoration: none;
     color: #ffffff;
     display: block;
 }
 
 article footer:hover, article header:hover {
- font-weight:bold;
+    font-weight: bold;
 }
 
 
-/* Theme */
+/* Themes */
+
 .theme1 header, .theme1 footer {
-	background-color: #BE3A4B;
+    background-color: #BE3A4B;
 }
+
 .theme1 section.blurb {
-	border: #BE3A4B 1px solid;
+    border: #BE3A4B 1px solid;
 }
+
 .theme2 header, .theme2 footer {
-	background-color: #3258A4;
+    background-color: #3258A4;
 }
+
 .theme2 section.blurb {
-	border: #3258A4 1px solid;
+    border: #3258A4 1px solid;
 }
+
 .theme3 header, .theme3 footer {
-	background-color: #B18776;
+    background-color: #B18776;
 }
+
 .theme3 section.blurb {
-	border: #B18776 1px solid;
+    border: #B18776 1px solid;
 }
 
 
 /* Site Footer */
+
 #siteFooter {
-	background-color: #298ECB;
-	padding: 10px 100px;
-	width: calc(100% - 200px);
-	clear: both;
+    background-color: #298ECB;
+    padding: 10px 100px;
+    width: calc(100% - 200px);
+    clear: both;
 }
+
 #siteFooter p {
-	font-size:10px;
-	color:#ffffff;
+    font-size: 10px;
+    color: #ffffff;
 }

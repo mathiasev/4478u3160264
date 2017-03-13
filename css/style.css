@@ -150,13 +150,13 @@ article footer:hover, article header:hover {
 .theme1 section.blurb {
 	border: #BE3A4B 1px solid;
 }
-.theme2 header a, .theme2 footer a {
+.theme2 header, .theme2 footer {
 	background-color: #3258A4;
 }
 .theme2 section.blurb {
 	border: #3258A4 1px solid;
 }
-.theme3 header a, .theme3 footer a {
+.theme3 header, .theme3 footer {
 	background-color: #B18776;
 }
 .theme3 section.blurb {

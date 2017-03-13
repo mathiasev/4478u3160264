@@ -165,7 +165,13 @@ article footer:hover, article header:hover {
 
 
 /* Site Footer */
-footer {
+#siteFooter {
 	background-color: #298ECB;
 	padding: 10px 100px;
+	position:absolute;
+	bottom:0;
+}
+#siteFooter p {
+	font-size:10px;
+	color:#ffffff;
 }

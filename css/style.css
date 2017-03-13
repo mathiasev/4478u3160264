@@ -90,6 +90,12 @@ a {
 
 
 /* Third Width Content: Homepage */
+.twoThirdWidth {
+	 width: calc((100% - 40px)/2);
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
 .thirdWidth {
     width: calc((100% - 40px)/3);
     float: left;
@@ -177,8 +183,6 @@ article footer:hover, article header:hover {
 #siteFooter {
 	background-color: #298ECB;
 	padding: 10px 100px;
-	position:absolute;
-	bottom:0;
 	width: calc(100% - 200px);
 }
 #siteFooter p {

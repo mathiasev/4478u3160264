@@ -79,8 +79,10 @@ a {
 
 /* Main Section */
 #main {
-    padding: 30px 100px 0;
+    padding: 0 100px 0;
+ margin-top:40px;
 }
+
 @media screen and (max-width: 480px) {
 	#main {
 	    padding: 0;
@@ -91,8 +93,7 @@ a {
 
 /* Third Width Content: Homepage */
 .twoThirdWidth {
-	 width: calc((100% - 40px)/2);
-    float: left;
+	width: calc(((100% - 230px)/3)*2)    float: left;
     display: inline-block;
     margin-right: 20px;
 }
@@ -184,6 +185,7 @@ article footer:hover, article header:hover {
 	background-color: #298ECB;
 	padding: 10px 100px;
 	width: calc(100% - 200px);
+	clear: both;
 }
 #siteFooter p {
 	font-size:10px;

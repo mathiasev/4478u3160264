@@ -111,7 +111,7 @@ a {
 /* Third Width Content: Homepage */
 
 .twoThirdWidth {
-    width: calc(((100% - 230px)/3)*2);
+    width: calc((((100%)/3)*2) - 20px);
     float: left;
     display: inline-block;
     margin-right: 20px;

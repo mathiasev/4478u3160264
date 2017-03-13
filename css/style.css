@@ -140,7 +140,7 @@ a {
     font-size: 10px;
 }
 
-.thirdWidth:last {
+.thirdWidth:last-child, #sidebar.thirdWidth {
     margin-right: 0;
 }
 

@@ -6,30 +6,39 @@ body {
     font-family: 'Open Sans',Arial, Helvetica, sans-serif;
     margin:0;
 }
-h1,h2,h3,h4,h5,h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Bree Serif', Arial, Helvetica, sans-serif;	
 	letter-spacing:2.5px;
 }
-
 section { 
     display:inline-block;
 }
-
 img {
     margin: 10px auto auto auto;
 }
-a { color: inherit; }
+a { 
+	color: inherit;
+}
 
 /* Site Header and Menu */
 #siteHeader {
     padding: 10px 100px;
 }
-
+#siteHeader h1 {
+	margin-bottom:0;
+}
+#siteHeader p {
+	margin-top:0;
+}
+.fixHeader {
+    position: fixed;
+    width:100%;
+    top:0;
+}
 .menuBar {     
 	background-color:#298ECB;
 	padding: 0 100px;
 }
-
 .menuBar > a {
 	display: inline-block;
 	height:	40px;
@@ -37,7 +46,6 @@ a { color: inherit; }
 	color:#ffffff;
 	line-height:40px;
 }
-
 @media screen and (max-width: 480px) {
 	.menuBar > a {
 	display: inline-block;
@@ -47,13 +55,11 @@ a { color: inherit; }
 	line-height:20px;
 	}
 }
-
-
 .menuBar a {
 	color:#ffffff;	
 	text-decoration:none;
 }
-a.active {
+.menuBar a.active {
     cursor: default;
     font-weight: bold;
     color: #298ECB;
@@ -70,11 +76,6 @@ a.active {
     }
 }
 
-.fixHeader {
-    position: fixed;
-    width:100%;
-    top:0;
-}
 
 /* Main Section */
 #main {
@@ -98,7 +99,7 @@ a.active {
 @media screen and (max-width: 768px) {
 	.thirdWidth {
 		width: 100%;
-		margin:10px 0 0 0	;
+		margin:10px 0 0 0;
 	}
 }
 

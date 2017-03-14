@@ -207,7 +207,14 @@ article footer:hover, article header:hover {
 .theme3 section.blurb {
     border: #B18776 1px solid;
 }
-
+.facebook {
+    background-color: #3b5998;
+}
+.facebook a {
+    letter-spacing: normal;
+    font-family: 'Tahoma','Lucida Grande';
+    font-weight: bold;
+}
 
 /* Site Footer */
 

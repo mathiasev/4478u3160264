@@ -152,6 +152,15 @@ article header a {
     text-align: center;
     width: 100%;
     text-decoration: none;
+    overflow:hidden;
+}
+article header img {
+    transition: all 0.8s;
+}
+
+img.headerImage:hover {
+    transform: scale(1.1);
+    transition: all 0.8s;
 }
 
 article header h2 {

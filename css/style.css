@@ -51,6 +51,7 @@ a {
 nav {
     background-color: #298ECB;
     padding: 0 100px;
+    z-index:999999;
 }
 
 nav  a {

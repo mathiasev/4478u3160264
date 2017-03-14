@@ -89,7 +89,7 @@ nav a:hover {
         width: calc(100% - 40px);
     }
     nav {
-        margin: 0;
+        padding: 0;
     }
 }
 

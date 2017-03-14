@@ -155,10 +155,11 @@ article header a {
     text-decoration: none;
     overflow:hidden;
 }
+
+/* Zoom transition loosely based on: https://codepen.io/Remedy/pen/ZYJrpp */
 article header img {
     transition: all 0.8s;
 }
-
 img.headerImage:hover {
     transform: scale(1.1);
     transition: all 0.8s;

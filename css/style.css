@@ -47,21 +47,22 @@ a {
     top: 0;
 }
 
-.menuBar {
+nav {
     background-color: #298ECB;
     padding: 0 100px;
 }
 
-.menuBar>a {
+nav  a {
     display: inline-block;
     height: 40px;
     padding: 10px 20px;
     color: #ffffff;
     line-height: 40px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
-    .menuBar>a {
+    nav a {
         display: inline-block;
         height: 20px;
         padding: 10px;
@@ -70,26 +71,25 @@ a {
     }
 }
 
-.menuBar a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-.menuBar a.active {
+nav a.active {
     cursor: default;
     font-weight: bold;
     color: #298ECB;
     background-color: #ffffff;
 }
 
-.menuBar a:hover {
+nav a:hover {
     font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
-    #siteHeader, nav {
+    #siteHeader {
         padding: 10px 20px;
         width: calc(100% - 40px);
+    }
+    nav {
+        margin: 0;
     }
 }
 

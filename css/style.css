@@ -160,7 +160,7 @@ article header a {
 article header img {
     transition: all 0.8s;
 }
-img.headerImage:hover {
+article header img:hover {
     transform: scale(1.1);
     transition: all 0.8s;
 }

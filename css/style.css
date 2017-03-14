@@ -193,6 +193,9 @@ article footer:hover, article header:hover {
 .theme1 header, .theme1 footer {
     background-color: #BE3A4B;
 }
+.theme1 header {
+    background-image: url('../img/socialMedia-HeadImage.jpg');
+}
 
 .theme1 section.blurb {
     border: #BE3A4B 1px solid;

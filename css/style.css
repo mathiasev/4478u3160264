@@ -307,3 +307,6 @@ article footer:hover, article header:hover {
 .scroll:hover {
     bottom: 0px;
 }
+.scroll a {
+    text-decoration:none;
+}

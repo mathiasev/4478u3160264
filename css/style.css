@@ -133,7 +133,7 @@ nav a:hover {
     }
 }
 
-article[class*="theme"]:hover {
+article[class*="theme"]:hover, section[class*="cta"]:hover {
     box-shadow: 2px 2px 27px rgba(50, 50, 50, 0.4);
 }
 

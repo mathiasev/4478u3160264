@@ -303,10 +303,8 @@ article footer:hover, article header:hover {
     background: #298ECB;
     padding: 20px;
     color: #fff;
+    text-decoration:none;
 }
 .scroll:hover {
     bottom: 0px;
-}
-.scroll a {
-    text-decoration:none;
 }

@@ -104,6 +104,7 @@ nav a:hover {
 
 #main {
     margin: 40px 100px;
+    width: calc(100% - 200px);
 }
 
 @media screen and (max-width: 480px) {
@@ -115,6 +116,9 @@ nav a:hover {
 
 
 /* Third Width Content: Homepage */
+.fullWidth {
+    width:100%;   
+}
 
 .twoThirdWidth {
     width: calc((((100%)/3)*2) - 20px);

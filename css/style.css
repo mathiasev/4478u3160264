@@ -145,12 +145,18 @@ nav a:hover {
     margin-right: 0;
 }
 
+/* Sidebar */ 
+#sidebar article:first-child {
+    margin-bottom:10px;   
+}
 
 /* Article */
+article header {
+    text-align: center;
+}
 
 article header a {
     display: inline-block;
-    text-align: center;
     width: 100%;
     text-decoration: none;
 }

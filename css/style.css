@@ -294,3 +294,16 @@ article footer:hover, article header:hover {
     font-size: 10px;
     color: #ffffff;
 }
+
+.scroll {
+    position: fixed;
+    float: right;
+    bottom: -10px;
+    right: 20px;
+    background: #298ECB;
+    padding: 20px;
+    color: #fff;
+}
+.scroll:hover {
+    bottom: 0px;
+}

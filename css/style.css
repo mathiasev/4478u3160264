@@ -153,18 +153,20 @@ article header a {
     text-align: center;
     width: 100%;
     text-decoration: none;
-    overflow:hidden;
 }
 
 /* Zoom transition loosely based on: https://codepen.io/Remedy/pen/ZYJrpp */
+article header {
+    overflow:hidden;
+}
 article header img {
     transition: all 0.8s;
 }
-article header img:hover {
+article header img:hover, article header img:focus {
     transform: scale(1.1);
     transition: all 0.8s;
+    outline: none; /* Automatic Webkit Outline added by some browsers */
 }
-
 article header h2 {
     color: #ffffff;
     text-transform: uppercase;

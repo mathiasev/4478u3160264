@@ -161,10 +161,17 @@ article header {
 }
 article header img {
     transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
 }
-article header img:hover, article header img:focus {
+article header img:hover, article header img:focus,  article header img:active {
     transform: scale(1.1);
+    -moz-transform: scale(1.1); /* Browser Compatability */
+    -webkit-transform: scale(1.1); /* Browser Compatability */
+    
     transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
     outline: none; /* Automatic Webkit Outline added by some browsers */
 }
 article header h2 {

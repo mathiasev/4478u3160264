@@ -47,7 +47,10 @@ a {
     width: 100%;
     top: 0;
 }
-
+img.logo {
+    float: right;
+    height: 80px;
+}
 nav {
     background-color: #298ECB;
     padding: 0 100px;

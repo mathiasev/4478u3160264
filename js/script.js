@@ -6,7 +6,7 @@ window.addEventListener('scroll', scrollCheck);
 function scrollCheck() {
     if (window.pageYOffset > 100) {
  document.getElementById('nav').classList.add('fixHeader');
-        document.getElementById('scroll').classList.add('scoll');
+        document.getElementById('scroll').classList.add('scroll');
     }
     else if (window.pageXOffset <100) {
         document.getElementById('nav').classList.remove('fixHeader');

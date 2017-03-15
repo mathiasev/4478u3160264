@@ -273,7 +273,11 @@ article footer:hover, article header:hover {
 @media screen and (max-width: 480px) {
     .cta p, .cta a {
         width: 100%;
+        text-align:center;
     }  
+    .cta a {
+        margin-top: 15px;
+    }
 }
 
 

@@ -133,11 +133,11 @@ nav a:hover {
     }
 }
 
-.thirdWidth:hover {
+article[class*="theme"]:hover {
     box-shadow: 2px 2px 27px rgba(50, 50, 50, 0.4);
 }
 
-.thirdWidth:hover article footer a {
+article[class*="theme"]:hover footer a {
     font-size: 10px;
 }
 

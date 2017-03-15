@@ -308,15 +308,17 @@ article footer:hover, article header:hover {
     color: #ffffff;
 }
 
-.scroll {
-    position: fixed;
+#scroll {
     float: right;
-    bottom: -10px;
-    right: 20px;
     background: #298ECB;
     padding: 20px;
     color: #fff;
     text-decoration:none;
+}
+.scroll {
+    position: fixed;
+    bottom: -10px;
+    right: 20px;
 }
 .scroll:hover {
     bottom: 0px;

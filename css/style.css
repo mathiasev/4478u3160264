@@ -50,6 +50,7 @@ a {
 img.logo {
     float: right;
     height: 80px;
+    margin-top:0.6em;
 }
 nav {
     background-color: #298ECB;

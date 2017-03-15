@@ -245,7 +245,6 @@ article footer:hover, article header:hover {
     background-color: #3b5998;
     color: #fff;
     font-family: 'Tahoma','Lucida Grande';
-
 }
 .facebook a {
     letter-spacing: normal;
@@ -271,6 +270,12 @@ article footer:hover, article header:hover {
 .cta a:hover {
     font-style: italic;
 }
+@media screen and (max-width: 480px) {
+    .cta p, .cta a {
+        width: 100%;
+    }  
+}
+
 
 /* Site Footer */
 

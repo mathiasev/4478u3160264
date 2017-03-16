@@ -142,6 +142,19 @@ nav a:hover {
     width:100%;   
 }
 
+.twoThirdWidth {
+    width: calc((((100%)/3)*2) - 20px);
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+ 
+.thirdWidth {
+    width: calc((100% - 40px)/3);
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
 
 
 @media screen and (max-width: 768px) {

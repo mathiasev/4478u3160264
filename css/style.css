@@ -206,6 +206,11 @@ section.blurb {
     box-sizing:border-box;
 }
 
+.blurb img {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+}
+
 @media screen and (min-width: 480px) {
     #content .blurb {
         padding: 0;

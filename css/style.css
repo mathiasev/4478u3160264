@@ -126,7 +126,7 @@ nav a:hover {
 #main {
     margin: 40px 100px;
     width: calc(100% - 200px);
-    word-wrap:break-word;
+      word-wrap:break-word;
 }
 
 @media screen and (max-width: 480px) {
@@ -250,7 +250,7 @@ section.blurb {
     margin-bottom: 17px;
 }
 .blurb figure {
-    max-width: 500px;
+    max-width: 400px;
     margin: 0px 0px 20px 20px;
     float: right;
     clear: right;

@@ -27,6 +27,14 @@ a {
     color: inherit;
 }
 
+figure img {
+     
+}
+figcaption {
+    font-size:small;
+    text-transform:uppercase;
+    color:#4c4c4c;
+}
 
 /* Site Header and Menu */
 
@@ -206,7 +214,7 @@ section.blurb {
     box-sizing:border-box;
 }
 
-blurb img {
+.blurb figure {
     max-width: 500px;
     margin: 0 auto;
     float: right;
@@ -214,6 +222,8 @@ blurb img {
     clear: right;
     width: 100%;
 }
+
+
 
 @media screen and (min-width: 480px) {
     #content .blurb {

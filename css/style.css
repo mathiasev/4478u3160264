@@ -251,13 +251,13 @@ section.blurb {
 }
 
 
-.leftHalf {
+figure.leftHalf {
     width: 48%;
     margin: 20px 0px;
     max-width: 48%;
     float: left;
 }
-.rightHalf {
+figure.rightHalf {
   width: 48%;
   max-width: 48%;
   margin: 20px 0px;

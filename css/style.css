@@ -258,14 +258,14 @@ section.blurb {
 
 
 figure.leftHalf {
-    width: 48%;
+    width: 50%;
     margin: 20px 0px;
-    max-width: 48%;
+    max-width: 50%;
     float: left;
 }
 figure.rightHalf {
-  width: 48%;
-  max-width: 48%;
+  width: 50%;
+  max-width: 50%;
   margin: 20px 0px;
 }
 

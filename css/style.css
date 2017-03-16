@@ -9,7 +9,6 @@
 }
 
 /* Core Components */
-
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     margin: 0;
@@ -51,6 +50,9 @@ figcaption {
 
 #siteHeader {
     padding: 10px 100px;
+}
+#siteHeader a {
+    text-decoration: none;
 }
 
 #siteHeader h1 {

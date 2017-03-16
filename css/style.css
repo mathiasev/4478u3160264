@@ -27,6 +27,10 @@ a {
     color: inherit;
 }
 
+figure { 
+    max-width:100%;
+}
+
 figure img {
     width:100%;
     height:auto;

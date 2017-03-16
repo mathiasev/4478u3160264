@@ -234,6 +234,12 @@ article header h2 {
     font-size: 1.25em;
 }
 
+article[class*="theme"] ul, article[class*="facebook"] ul {
+    list-style: none;
+    padding: 0;
+}
+
+
 section.blurb {
     padding: 20px;
     min-height: 200px;

@@ -129,11 +129,21 @@ nav a:hover {
       word-wrap:break-word;
 }
 
+#main .rightHalf {
+    width: 49%;
+}
+
+#main .leftHalf {
+    width: 49%;
+}
+
 @media screen and (max-width: 480px) {
-    #main {
+    #main, #main .leftHalf, #main .rightHalf {
         margin: 0;
         width: 100%;
+      max-width:100%;
     }
+  
 }
 
 

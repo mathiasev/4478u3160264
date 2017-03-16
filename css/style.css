@@ -46,6 +46,12 @@ figcaption {
     color:#999999;
 }
 
+table {
+  width:100%;
+}
+td {
+ width:50%; 
+}
 /* Site Header and Menu */
 
 #siteHeader {

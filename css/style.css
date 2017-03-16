@@ -142,19 +142,7 @@ nav a:hover {
     width:100%;   
 }
 
-.twoThirdWidth {
-    width: calc((((100%)/3)*2) - 20px);
-    float: left;
-    display: inline-block;
-    margin-right: 20px;
-}
 
-.thirdWidth {
-    width: calc((100% - 40px)/3);
-    float: left;
-    display: inline-block;
-    margin-right: 20px;
-}
 
 @media screen and (max-width: 768px) {
     .thirdWidth, .twoThirdWidth {
@@ -162,19 +150,6 @@ nav a:hover {
         margin: 10px 0 0 0;
     }
 }
-
-.leftHalf {
-    width: 48%;
-    margin: 20px 0px;
-    max-width: 48%;
-    float: left;
-}
-.rightHalf {
-  width: 48%;
-  max-width: 48%;
-  margin: 20px 0px;
-}
-
 
 article[class*="theme"]:hover, section[class*="cta"]:hover {
     box-shadow: 2px 2px 27px rgba(50, 50, 50, 0.4);

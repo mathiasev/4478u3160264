@@ -155,7 +155,18 @@ nav a:hover {
     display: inline-block;
     margin-right: 20px;
 }
-
+.leftHalf {
+    width: 50%;
+    margin: 20px 0px;
+    max-width: 50%;
+    float: left;
+}
+.rightHalf {
+  width: 50%;
+  max-width: 50%;
+  margin: 20px 0px;
+  float: right;
+}
 
 @media screen and (max-width: 768px) {
     .thirdWidth, .twoThirdWidth {
@@ -237,6 +248,9 @@ section.blurb {
 .blurb li {
     margin-bottom: 17px;
 }
+
+
+
 .blurb figure {
     max-width: 400px;
     margin: 0px 0px 20px 20px;
@@ -245,18 +259,7 @@ section.blurb {
 }
 
 
-figure.leftHalf {
-    width: 50%;
-    margin: 20px 0px;
-    max-width: 50%;
-    float: left;
-}
-figure.rightHalf {
-  width: 50%;
-  max-width: 50%;
-  margin: 20px 0px;
-  float: right;
-}
+
 
 
 @media screen and (min-width: 480px) {

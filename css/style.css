@@ -28,12 +28,13 @@ a {
 }
 
 figure img {
-     
+    width:100%;
+    height:auto;
 }
 figcaption {
     font-size:small;
     text-transform:uppercase;
-    color:#4c4c4c;
+    color:#999999;
 }
 
 /* Site Header and Menu */
@@ -216,14 +217,10 @@ section.blurb {
 
 .blurb figure {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0px 0px 20px 20px;
     float: right;
-    padding: 0px 0px 10px 50px;
     clear: right;
-    width: 100%;
 }
-
-
 
 @media screen and (min-width: 480px) {
     #content .blurb {

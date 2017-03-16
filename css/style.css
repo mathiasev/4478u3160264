@@ -250,6 +250,20 @@ section.blurb {
     clear: right;
 }
 
+
+.leftHalf {
+    width: 48%;
+    margin: 20px 0px;
+    max-width: 48%;
+    float: left;
+}
+.rightHalf {
+  width: 48%;
+  max-width: 48%;
+  margin: 20px 0px;
+}
+
+
 @media screen and (min-width: 480px) {
     #content .blurb {
         padding: 0;

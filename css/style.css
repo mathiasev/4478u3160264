@@ -218,7 +218,9 @@ section.blurb {
     width:100%;
     box-sizing:border-box;
 }
-
+.blurb li {
+    margin-bottom: 17px;
+}
 .blurb figure {
     max-width: 500px;
     margin: 0px 0px 20px 20px;

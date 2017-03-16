@@ -255,6 +255,7 @@ figure.rightHalf {
   width: 50%;
   max-width: 50%;
   margin: 20px 0px;
+  float: right;
 }
 
 

@@ -163,6 +163,19 @@ nav a:hover {
     }
 }
 
+.leftHalf {
+    width: 48%;
+    margin: 20px 0px;
+    max-width: 48%;
+    float: left;
+}
+.rightHalf {
+  width: 48%;
+  max-width: 48%;
+  margin: 20px 0px;
+}
+
+
 article[class*="theme"]:hover, section[class*="cta"]:hover {
     box-shadow: 2px 2px 27px rgba(50, 50, 50, 0.4);
 }
